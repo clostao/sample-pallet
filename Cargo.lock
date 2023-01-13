@@ -2212,6 +2212,7 @@ dependencies = [
  "pallet-aura",
  "pallet-balances",
  "pallet-base-fee",
+ "pallet-custom",
  "pallet-dynamic-fee",
  "pallet-ethereum",
  "pallet-evm",
@@ -4217,6 +4218,21 @@ dependencies = [
 
 [[package]]
 name = "pallet-base-fee"
+version = "1.0.0"
+dependencies = [
+ "fp-evm",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+]
+
+[[package]]
+name = "pallet-custom"
 version = "1.0.0"
 dependencies = [
  "fp-evm",
